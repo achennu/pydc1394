@@ -1,4 +1,5 @@
 /*.egg-info
+*.py[cod]
 /build
 /dist
 /doc/build

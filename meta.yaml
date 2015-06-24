@@ -1,0 +1,25 @@
+package:
+  name: pydc1394
+  version: 2.0
+
+source:
+   git_tag: master
+   git_url: https://github.com/achennu/pydc1394
+
+requirements:
+  build:
+   - python
+   - setuptools
+
+  run:
+   - python
+   - numpy
+
+test:
+  imports:
+    - pydc1394
+
+about:
+   home: https://github.com/achennu/pydc1394
+   license: LGPL
+   summary: pythonic wrapper around the DC1394 camera library
