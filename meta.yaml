@@ -14,6 +14,7 @@ requirements:
   run:
    - python
    - numpy
+   - libdc1394
 
 test:
   imports:
